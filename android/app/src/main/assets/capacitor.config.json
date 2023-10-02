@@ -1,0 +1,17 @@
+{
+	"appId": "com.joaquinmx.biorhythms",
+	"appName": "Biorhythms",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "build",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	},
+	"cordova": {},
+	"windowsAndroidStudioPath": "C:\\Users\\tecno\\AppData\\Local\\JetBrains\\Toolbox\\apps\\AndroidStudio\\ch-0\\212.5712.43.2112.8815526\\bin\\studio64.exe",
+	"server": {
+		"url": "http://192.168.0.10:3000"
+	}
+}

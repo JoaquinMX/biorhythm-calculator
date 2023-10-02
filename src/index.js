@@ -1,3 +1,4 @@
+import { SplashScreen } from '@capacitor/splash-screen';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -19,8 +20,13 @@ import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import './index.css';
 
+ReactDOM.render(<App />, document.getElementById('root'), () => {
+    SplashScreen.hide();
+});
+/** This hides the beginning screen we have in the app after the apps loads */
+ 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
